@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,6 +26,7 @@
 		6FD6140526C417CB008FE7D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FD6140826C417CB008FE7D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FD6140A26C417CB008FE7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD6143426C41C74008FE7D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +107,7 @@
 				};
 			};
 			buildConfigurationList = 6FD613F126C417C9008FE7D4 /* Build configuration list for PBXProject "swift-001-to_do_list" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -155,6 +156,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				6FD6140026C417C9008FE7D4 /* Base */,
+				6FD6143426C41C74008FE7D4 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -296,11 +298,16 @@
 				DEVELOPMENT_TEAM = K328B98U3F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "swift-001-to_do_list/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Too Doo";
+				INFOPLIST_KEY_CFBundleExecutable = "swift-001-to_do_list";
+				INFOPLIST_KEY_CFBundleName = "swift-001-to_do_list";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,11 +331,16 @@
 				DEVELOPMENT_TEAM = K328B98U3F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "swift-001-to_do_list/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Too Doo";
+				INFOPLIST_KEY_CFBundleExecutable = "swift-001-to_do_list";
+				INFOPLIST_KEY_CFBundleName = "swift-001-to_do_list";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
